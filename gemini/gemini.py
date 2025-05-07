@@ -37,7 +37,7 @@ smooth = SmoothingFunction().method1
 with open(file_path, "r", encoding="utf-8") as f:
     dev_data = [json.loads(line) for line in f]
 
-with open("output.txt", "w", encoding="utf-8") as f:
+with open("gemini_output.txt", "w", encoding="utf-8") as f:
 
     for i in range(1000):
         print(f"Table number {i+1}", file=f)
